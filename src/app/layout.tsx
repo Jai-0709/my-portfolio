@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Full Stack Developer", // Replace "Your Name" with your actual name
+  title: "Jaisurya - Full Stack Developer", // Replace "Your Name" with your actual name
   description:
     "Building scalable and performant web applications with modern technologies.",
   keywords: [
