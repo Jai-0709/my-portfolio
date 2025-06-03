@@ -28,7 +28,7 @@ const TextScramble: React.FC<TextScrambleProps> = ({
     let resolved = false;
 
     const maxLength = currentText.length;
-    let scrambleArray = Array(maxLength).fill("").map(() => randomChar());
+    const scrambleArray = Array(maxLength).fill("").map(() => randomChar());
 
     const update = () => {
       let updated = false;
@@ -61,7 +61,7 @@ const TextScramble: React.FC<TextScrambleProps> = ({
     return () => {
       if (!resolved) setOutput("");
     };
-  }, [index]);
+  }, [index, interval, speed, texts]);
 
   return (
     <div className="uppercase font-mono text-lg tracking-widest text-amber-400 min-h-[1.5em]">

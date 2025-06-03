@@ -8,10 +8,8 @@ import { FaReact, FaNodeJs, FaDatabase, FaServer, FaHtml5, FaCss3Alt, FaJs, FaGi
 import { SiTailwindcss, SiExpress, SiRedux, SiSocketdotio, SiFirebase, SiMongodb, SiPostman, SiVercel, SiTypescript, SiNextdotjs, SiFramer } from "react-icons/si";
 import { LuSquareCode } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
-import { DiAws, DiJava, DiMysql, DiPython } from "react-icons/di";
-import { BarChart, BarChart2Icon, BarChart3Icon, Database } from "lucide-react";
-import { MdReportProblem, MdSyncProblem } from "react-icons/md";
-import { Barlow } from "next/font/google";
+import { DiJava, DiMysql, DiPython } from "react-icons/di";
+import { BarChart3Icon, Database } from "lucide-react";
 import { AiFillBulb } from "react-icons/ai";
 
 // List your technical skills below
@@ -292,6 +290,5 @@ export const certifications = [
     ],
   },
 
-  
   // Add more certificates as needed
 ];
