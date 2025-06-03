@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Jaisurya - Portfolio", // Replace "Your Name" with your actual name
     description:
       "Building scalable and performant web applications with modern technologies.",
-    url: "https://my-portfolio-cm5n.vercel.app/", // Replace "#" with your deployed website URL
+    url: "https://my-portfolio-o3gb.vercel.app/", // Replace "#" with your deployed website URL
     siteName: "Jaisurya", // Replace "Your Name" with your actual name
     images: [
       {
