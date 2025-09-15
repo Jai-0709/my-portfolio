@@ -4,8 +4,8 @@
 import { FiHome, FiMail } from "react-icons/fi";
 import { FaAws, FaCertificate, FaGithub, FaJava, FaLinkedinIn, FaPython } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
-import { FaReact, FaNodeJs, FaDatabase, FaServer, FaHtml5, FaCss3Alt, FaJs, FaGit, FaFigma, FaCuttlefish } from "react-icons/fa";
-import { SiTailwindcss, SiExpress, SiRedux, SiSocketdotio, SiFirebase, SiMongodb, SiPostman, SiVercel, SiTypescript, SiNextdotjs, SiFramer, SiApachespark, SiStreamlit, SiArduino } from "react-icons/si";
+import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaGit, FaFigma, FaCuttlefish } from "react-icons/fa";
+import { SiTailwindcss, SiExpress, SiRedux,  SiMongodb, SiPostman, SiVercel, SiTypescript, SiNextdotjs, SiFramer, SiApachespark, SiStreamlit, SiArduino } from "react-icons/si";
 import { LuSquareCode } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
 import { DiCss3, DiHtml5, DiJava, DiJavascript, DiMysql, DiPhp, DiPython, DiSpark } from "react-icons/di";
