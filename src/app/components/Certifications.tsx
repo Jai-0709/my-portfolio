@@ -124,7 +124,7 @@ const Certifications = React.forwardRef<HTMLElement, unknown>((props, ref) => {
                 className="certification-img lg:absolute lg:top-20 lg:right-[-55%] w-full h-40 sm:h-80 md:h-96 lg:w-[167%] lg:h-[22rem] border border-neutral-600 rounded-xl hover:cursor-pointer"
                 whileHover={
                   isLargeScreen
-                    ? { x: -350, y: -65 }
+                    ? { x: -320, y: -65 }
                     : {}
                 }
                 transition={

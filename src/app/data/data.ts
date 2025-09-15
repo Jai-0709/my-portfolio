@@ -5,12 +5,14 @@ import { FiHome, FiMail } from "react-icons/fi";
 import { FaAws, FaCertificate, FaGithub, FaJava, FaLinkedinIn, FaPython } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
 import { FaReact, FaNodeJs, FaDatabase, FaServer, FaHtml5, FaCss3Alt, FaJs, FaGit, FaFigma, FaCuttlefish } from "react-icons/fa";
-import { SiTailwindcss, SiExpress, SiRedux, SiSocketdotio, SiFirebase, SiMongodb, SiPostman, SiVercel, SiTypescript, SiNextdotjs, SiFramer } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiRedux, SiSocketdotio, SiFirebase, SiMongodb, SiPostman, SiVercel, SiTypescript, SiNextdotjs, SiFramer, SiApachespark, SiStreamlit, SiArduino } from "react-icons/si";
 import { LuSquareCode } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
-import { DiJava, DiMysql, DiPython } from "react-icons/di";
+import { DiCss3, DiHtml5, DiJava, DiJavascript, DiMysql, DiPhp, DiPython, DiSpark } from "react-icons/di";
 import { BarChart3Icon, Database } from "lucide-react";
 import { AiFillBulb } from "react-icons/ai";
+import { GrHadoop } from "react-icons/gr";
+import { MdSensorDoor, MdSensors } from "react-icons/md";
 
 // List your technical skills below
 export const skills = [
@@ -35,6 +37,9 @@ export const skills = [
   { name: "Python", icon: DiPython, color: "#00599C" },
   { name: "SQL", icon: DiMysql, color: "#00599C" },
   { name: "Java", icon: DiJava, color: "#00599C" },
+  { name: "Spark", icon: DiSpark, color: "#949c00ff" },
+  { name: "Hadoop", icon:GrHadoop, color: "#00599C" },
+
 ];
 
 type NavbarItem = {
@@ -69,79 +74,66 @@ export const navbarData: NavbarItem[] = [
 // Add your projects here with their descriptions, features, and tech stack.
 export const projects = [
   {
-    name: "Sample Project 1",
-    description: "Description about sample project 1",
+    name: "AI based Stock Market Predictor",
+    description: "AI Stock Market Analyzer (Spark + Python) – Built data pipelines and ML models in PySpark to analyze stock trends in real time.",
     points: [
-      "Feature 1 of the sample project.",
-      "Feature 2 of the sample project.",
-      "Feature 3 of the sample project.",
+      "Built scalable data pipelines in PySpark for stock market data.",
+      "Performed feature engineering (returns, volatility, indicators).",
     ],
     techStack: [
-      { name: "React.js", icon: FaReact, color: "#61DAFB" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-      { name: "Node.js", icon: FaNodeJs, color: "#83CD29" },
-      { name: "Express.js", icon: SiExpress, color: "#C9D1D9" },
+      { name: "Python", icon: DiPython, color: "#61DAFB" },
+      { name: "Spark", icon: SiApachespark, color: "#38B2AC" },
+      { name: "Streamlit", icon: SiStreamlit, color: "#83CD29" },
     ],
     liveLink: "#",
     githubLink: "https://github.com/Jai-0709/Car-rental-system",
-    image: "/img/projectimage.jfif",
+    image: "/img/STOCK.png",
   },
   {
-    name: "Sample Project 2",
-    description: "Description about sample project 2",
+    name: "Piezo Electric Sensor Footpath",
+    description: "Piezoelectric Sensor Footpath – Converts footsteps into electricity for powering lights and tracking pedestrian flow.",
     points: [
-      "Feature 1 of the sample project.",
-      "Feature 2 of the sample project.",
-      "Feature 3 of the sample project.",
+      "Generates electricity from footsteps using piezoelectric sensors.",
+      "Monitors pedestrian flow for smart city applications.",
     ],
     techStack: [
-      { name: "React.js", icon: FaReact, color: "#61DAFB" },
-      { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-      { name: "Socket.IO", icon: SiSocketdotio, color: "#ffffff" },
-      { name: "Node.js", icon: FaNodeJs, color: "#83CD29" },
-      { name: "Express.js", icon: SiExpress, color: "#C9D1D9" },
-      { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+      { name: "Piezoelectric Sensor", icon: MdSensorDoor, color: "#61DAFB" },
     ],
     liveLink: "#",
     githubLink: "#",
-    image: "/img/projectimage.jfif",
+    image: "/img/PS.jpg",
   },
   {
-    name: "Sample Project 3",
-    description: "Description about sample project 3",
+    name: "Car Rental System",
+    description: "A web-based platform for booking, managing, and tracking car rentals with a user-friendly interface and secure backend.",
     points: [
-      "Feature 1 of the sample project.",
-      "Feature 2 of the sample project.",
-      "Feature 3 of the sample project.",
+      "Users can search, book, and manage car rentals online.",
+      "Admins can add, update, and track vehicle availability",
     ],
     techStack: [
-      { name: "React.js", icon: FaReact, color: "#61DAFB" },
-      { name: "Redux Toolkit", icon: SiRedux, color: "#764ABC" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-      { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
+      { name: "HTML", icon: DiHtml5, color: "#61DAFB" },
+      { name: "CSS", icon: DiCss3, color: "#764ABC" },
+      { name: "Java Script", icon: DiJavascript, color: "#38B2AC" },
+      { name: "PHP", icon: DiPhp, color: "#FFCA28" },
     ],
     liveLink: "#",
     githubLink: "#",
-    image: "/img/projectimage.jfif",
+    image: "/img/CRS.jpeg",
   },
   {
-    name: "Sample Project 4",
-    description: "Description about sample project 4",
+    name: "Car Parking System with Ultrasonic Sensor",
+    description: "Smart parking system using ultrasonic sensors to show real-time slot availability.",
     points: [
-      "Feature 1 of the sample project.",
-      "Feature 2 of the sample project.",
-      "Feature 3 of the sample project.",
+      "Ultrasonic sensors detect and monitor vacant parking slots in real time.",
+      "Parking availability is displayed instantly for users’ convenience.",
     ],
     techStack: [
-      { name: "React.js", icon: FaReact, color: "#61DAFB" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
-      { name: "Context API", icon: FaServer, color: "#6366F1" },
-      { name: "OpenWeather API", icon: FaDatabase, color: "#0064a5" },
+      { name: "Arduino Board", icon: SiArduino, color: "#61DAFB" },
+      { name: "Ultra Sonic Sensor", icon: MdSensors, color: "#38B2AC" },
     ],
     liveLink: "#",
     githubLink: "#",
-    image: "/img/preview.png",
+    image: "/img/CPS.jpeg",
   },
 ];
 
