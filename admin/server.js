@@ -392,7 +392,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true }}
           className="text-xs border border-neutral-600 rounded-full px-4 py-1.5 flex justify-center items-center gap-2 relative shine"
         >
-          ${hero.tagline}
+          {${JSON.stringify(hero.tagline)}}
         </motion.p>
 
         <motion.h1
@@ -402,7 +402,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true }}
           className="text-4xl sm:text-5xl md:text-6xl font-bold leading-12 px-4 sm:leading-18 w-full sm:max-w-2xl md:max-w-[52rem]"
         >
-          ${hero.headline}
+          {${JSON.stringify(hero.headline)}}
         </motion.h1>
 
         <motion.h4
@@ -412,7 +412,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true, amount: 0.2 }}
           className="md:text-xl leading-6 md:leading-8 w-full sm:max-w-2xl px-4 md:max-w-3xl"
         >
-          ${hero.subtitle}
+          {${JSON.stringify(hero.subtitle)}}
         </motion.h4>
 
         {/* 🔘 Buttons */}
@@ -635,7 +635,7 @@ const PersonalInfo = () => {
         <Image src={personalInfo.pfp} alt={personalInfo.alt} width={250} height={250} className="rounded-full object-cover" />
       </motion.div>
       <motion.h2 variants={fadeInUpRight} initial="hidden" whileInView="visible" className="text-2xl font-bold text-neutral-100">
-        ${pi.name}
+        {${JSON.stringify(pi.name)}}
       </motion.h2>
       <motion.div variants={fadeInUpRight} initial="hidden" whileInView="visible" className="text-white-400">
         <TextScramble
