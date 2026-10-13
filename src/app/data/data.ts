@@ -138,7 +138,7 @@ export const projects = [
 
 // Update your personal information
 export const personalInfo = {
-  pfp: "/img/image_1791919611018.jpeg",
+  pfp: "/img/image_1791922489594.png",
   alt: "Sample Profile Pic",
   summary:
     " Passionate about creating and learning. Focused on growth, driven by purpose, and waiting for the right opportunity to make an impact.",
