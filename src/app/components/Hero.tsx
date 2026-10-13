@@ -25,7 +25,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true }}
           className="text-xs border border-neutral-600 rounded-full px-4 py-1.5 flex justify-center items-center gap-2 relative shine"
         >
-          Let's Build What Tomorrow Needs, Today
+          {"Let's Build What Tomorrow Needs, Today"}
         </motion.p>
 
         <motion.h1
@@ -35,7 +35,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true }}
           className="text-4xl sm:text-5xl md:text-6xl font-bold leading-12 px-4 sm:leading-18 w-full sm:max-w-2xl md:max-w-[52rem]"
         >
-          Crafting Beautiful & Functional Web Experiences
+          {"Crafting Beautiful & Functional Web Experiences"}
         </motion.h1>
 
         <motion.h4
@@ -45,7 +45,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true, amount: 0.2 }}
           className="md:text-xl leading-6 md:leading-8 w-full sm:max-w-2xl px-4 md:max-w-3xl"
         >
-          Hey, I'm Jaisurya, a Full Stack Developer passionate about building performant, user-friendly, and scalable applications.
+          {"Hey, I'm Jaisurya, a Full Stack Developer passionate about building performant, user-friendly, and scalable applications."}
         </motion.h4>
 
         {/* 🔘 Buttons */}

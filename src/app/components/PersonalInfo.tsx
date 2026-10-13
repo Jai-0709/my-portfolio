@@ -18,7 +18,7 @@ const PersonalInfo = () => {
         <Image src={personalInfo.pfp} alt={personalInfo.alt} width={250} height={250} className="rounded-full object-cover" />
       </motion.div>
       <motion.h2 variants={fadeInUpRight} initial="hidden" whileInView="visible" className="text-2xl font-bold text-neutral-100">
-        Jaisurya M
+        {"Jaisurya M"}
       </motion.h2>
       <motion.div variants={fadeInUpRight} initial="hidden" whileInView="visible" className="text-white-400">
         <TextScramble
