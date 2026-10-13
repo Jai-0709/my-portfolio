@@ -1,0 +1,445 @@
+{
+  "personalInfo": {
+    "name": "Jaisurya M",
+    "pfp": "/img/image_1791919611018.jpeg",
+    "alt": "Sample Profile Pic",
+    "summary": " Passionate about creating and learning. Focused on growth, driven by purpose, and waiting for the right opportunity to make an impact.",
+    "location": "Chennai, India",
+    "roles": [
+      "Data Analyst",
+      "Web Developer",
+      "Cloud Intern",
+      "UI/UX Developer",
+      "Full Stack Developer"
+    ]
+  },
+  "hero": {
+    "tagline": "Let's Build What Tomorrow Needs, Today",
+    "headline": "Crafting Beautiful & Functional Web Experiences",
+    "subtitle": "Hey, I'm Jaisurya, a Full Stack Developer passionate about building performant, user-friendly, and scalable applications.",
+    "linkedinUrl": "https://www.linkedin.com/in/jaisurya2104/",
+    "resumeUrl": "https://drive.google.com/file/d/1v_bBK0hkRSwTzSMpQ8NuaW5A7BDnrh-X/view?usp=drive_link"
+  },
+  "contact": {
+    "email": "mjaisurya10@gmail.com",
+    "whatsappNumber": "9361118296",
+    "web3formsKey": "c58d076d-51ad-4e86-a28a-dae9d05c9928"
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/jaisurya2104/",
+    "github": "https://github.com/Jai-0709"
+  },
+  "education": {
+    "college": "SRM University",
+    "course": "B.Tech in Computer Science and Engineering with Cloud Computing",
+    "cgpa": "9.4",
+    "duration": "2023 - 2027"
+  },
+  "experience": {
+    "companyName": "CodSoft",
+    "title": "Python Developer Intern",
+    "duration": "Nov 2023 - Dec 2023",
+    "location": "Remote",
+    "points": [
+      "Developed a key feature that improved user engagement.",
+      "Collaborated with cross-functional teams to enhance.",
+      "Fixed critical bugs, improving performance."
+    ]
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "FaHtml5",
+      "color": "#E34F26"
+    },
+    {
+      "name": "CSS",
+      "icon": "FaCss3Alt",
+      "color": "#1572B6"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "FaJs",
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "SiTypescript",
+      "color": "#3178C6"
+    },
+    {
+      "name": "ReactJS",
+      "icon": "FaReact",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "NextJS",
+      "icon": "SiNextdotjs",
+      "color": "#ffffff"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "SiTailwindcss",
+      "color": "#38B2AC"
+    },
+    {
+      "name": "Framer Motion",
+      "icon": "SiFramer",
+      "color": "#0055FF"
+    },
+    {
+      "name": "NodeJS",
+      "icon": "FaNodeJs",
+      "color": "#83CD29"
+    },
+    {
+      "name": "ExpressJS",
+      "icon": "SiExpress",
+      "color": "#C9D1D9"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "SiMongodb",
+      "color": "#47A248"
+    },
+    {
+      "name": "Redux Toolkit",
+      "icon": "SiRedux",
+      "color": "#764ABC"
+    },
+    {
+      "name": "Git",
+      "icon": "FaGit",
+      "color": "#F05032"
+    },
+    {
+      "name": "GitHub",
+      "icon": "FaGithub",
+      "color": "#ffffff"
+    },
+    {
+      "name": "Vercel",
+      "icon": "SiVercel",
+      "color": "#ffffff"
+    },
+    {
+      "name": "Postman",
+      "icon": "SiPostman",
+      "color": "#FF6C37"
+    },
+    {
+      "name": "C++",
+      "icon": "FaCuttlefish",
+      "color": "#00599C"
+    },
+    {
+      "name": "Figma",
+      "icon": "FaFigma",
+      "color": "#F24E1E"
+    },
+    {
+      "name": "Python",
+      "icon": "DiPython",
+      "color": "#00599C"
+    },
+    {
+      "name": "SQL",
+      "icon": "DiMysql",
+      "color": "#00599C"
+    },
+    {
+      "name": "Java",
+      "icon": "DiJava",
+      "color": "#00599C"
+    },
+    {
+      "name": "Spark",
+      "icon": "DiSpark",
+      "color": "#949c00ff"
+    },
+    {
+      "name": "Hadoop",
+      "icon": "GrHadoop",
+      "color": "#00599C"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "AI based Stock Market Predictor",
+      "description": "AI Stock Market Analyzer (Spark + Python) – Built data pipelines and ML models in PySpark to analyze stock trends in real time.",
+      "points": [
+        "Built scalable data pipelines in PySpark for stock market data.",
+        "Performed feature engineering (returns, volatility, indicators)."
+      ],
+      "techStack": [
+        {
+          "name": "Python",
+          "icon": "DiPython",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "Spark",
+          "icon": "SiApachespark",
+          "color": "#38B2AC"
+        },
+        {
+          "name": "Streamlit",
+          "icon": "SiStreamlit",
+          "color": "#83CD29"
+        }
+      ],
+      "liveLink": "#",
+      "githubLink": "https://github.com/Jai-0709/Car-rental-system",
+      "image": "/img/STOCK.png"
+    },
+    {
+      "id": "proj_2",
+      "name": "Piezo Electric Sensor Footpath",
+      "description": "Piezoelectric Sensor Footpath – Converts footsteps into electricity for powering lights and tracking pedestrian flow.",
+      "points": [
+        "Generates electricity from footsteps using piezoelectric sensors.",
+        "Monitors pedestrian flow for smart city applications."
+      ],
+      "techStack": [
+        {
+          "name": "Piezoelectric Sensor",
+          "icon": "MdSensorDoor",
+          "color": "#61DAFB"
+        }
+      ],
+      "liveLink": "#",
+      "githubLink": "#",
+      "image": "/img/PS.jpg"
+    },
+    {
+      "id": "proj_3",
+      "name": "Car Rental System",
+      "description": "A web-based platform for booking, managing, and tracking car rentals with a user-friendly interface and secure backend.",
+      "points": [
+        "Users can search, book, and manage car rentals online.",
+        "Admins can add, update, and track vehicle availability"
+      ],
+      "techStack": [
+        {
+          "name": "HTML",
+          "icon": "DiHtml5",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "CSS",
+          "icon": "DiCss3",
+          "color": "#764ABC"
+        },
+        {
+          "name": "Java Script",
+          "icon": "DiJavascript",
+          "color": "#38B2AC"
+        },
+        {
+          "name": "PHP",
+          "icon": "DiPhp",
+          "color": "#FFCA28"
+        }
+      ],
+      "liveLink": "#",
+      "githubLink": "#",
+      "image": "/img/CRS.jpeg"
+    },
+    {
+      "id": "proj_4",
+      "name": "Car Parking System with Ultrasonic Sensor",
+      "description": "Smart parking system using ultrasonic sensors to show real-time slot availability.",
+      "points": [
+        "Ultrasonic sensors detect and monitor vacant parking slots in real time.",
+        "Parking availability is displayed instantly for users' convenience."
+      ],
+      "techStack": [
+        {
+          "name": "Arduino Board",
+          "icon": "SiArduino",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "Ultra Sonic Sensor",
+          "icon": "MdSensors",
+          "color": "#38B2AC"
+        }
+      ],
+      "liveLink": "#",
+      "githubLink": "#",
+      "image": "/img/CPS.jpeg"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert_1",
+      "title": "AWS Solutions Architecture Job Stimulation",
+      "description": "Optimized cloud costs and performance",
+      "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_QwmqkBhZmCofvmt6n_1748964155331_completion_certificate.pdf",
+      "image": "/img/aws.png",
+      "points": [
+        "Designed secure and scalable cloud architectures on AWS.",
+        "Implemented cost-optimized solutions using core AWS services.",
+        "Applied best practices for high availability and fault tolerance."
+      ],
+      "techStack": [
+        {
+          "name": "AWS",
+          "icon": "FaAws",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "cert_2",
+      "title": "Deloitte Data Analytics Job Simulation",
+      "description": "Cleaned and processed large datasets.",
+      "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_QwmqkBhZmCofvmt6n_1748797971768_completion_certificate.pdf",
+      "image": "/img/DEL1.png",
+      "points": [
+        "Extracted insights from real-world data.",
+        "Created visual dashboards and reports.",
+        "Analyzed business data for insights."
+      ],
+      "techStack": [
+        {
+          "name": "Data Analytics",
+          "icon": "FaDatabase",
+          "color": "#F7DF1E"
+        }
+      ]
+    },
+    {
+      "id": "cert_3",
+      "title": "TATA-Data Visualisation: Empowering Business with Effective Insights",
+      "description": "Transformed data into clear visual stories.",
+      "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_QwmqkBhZmCofvmt6n_1748806946137_completion_certificate.pdf",
+      "image": "/img/TATA.png",
+      "points": [
+        "Created interactive and insightful data visualizations to simplify complex information.",
+        "Used charts and dashboards to help businesses make data-driven decisions."
+      ],
+      "techStack": [
+        {
+          "name": "Data Visualization",
+          "icon": "BarChart3Icon",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "cert_4",
+      "title": "NPTEL-Introduction to Database Systems",
+      "description": "Learned fundamental concepts of database design and management",
+      "link": "https://internalapp.nptel.ac.in/NOC/NOC25/SEM1/Ecertificates/106/noc25-cs40/Course/NPTEL25CS40S24320701904321245.pdf",
+      "image": "/img/NPTEL.png",
+      "points": [
+        "Studied core concepts of database models and architecture",
+        "Mastered writing complex SQL queries for data manipulation.",
+        "Understood database design, normalization, and transaction management."
+      ],
+      "techStack": [
+        {
+          "name": "Database",
+          "icon": "Database",
+          "color": "orange"
+        }
+      ]
+    },
+    {
+      "id": "cert_5",
+      "title": "HackerRank - Problem Solving",
+      "description": "Developed strong algorithmic thinking through coding challenges.",
+      "link": "https://www.hackerrank.com/certificates/iframe/e2891d6d1318",
+      "image": "/img/PS.png",
+      "points": [
+        "Enhanced problem-solving skills by tackling algorithmic challenges.",
+        "Applied data structures and algorithms to real-world coding problems.",
+        "Improved code efficiency through optimization and debugging techniques."
+      ],
+      "techStack": [
+        {
+          "name": "Problem Solving",
+          "icon": "AiFillBulb",
+          "color": "#F7DF1E"
+        }
+      ]
+    },
+    {
+      "id": "cert_6",
+      "title": "HackerRank - Python",
+      "description": "HackerRank certified in Python (Basic) for core programming skills.",
+      "link": "https://www.hackerrank.com/certificates/iframe/c913e94161db",
+      "image": "/img/python.png",
+      "points": [
+        "Earned HackerRank Python (Basic) certification, demonstrating strong foundational Python skills.",
+        "Covered key topics like data types, loops, functions, and conditional statements.",
+        "Validated ability to solve real-world coding problems using Python efficiently."
+      ],
+      "techStack": [
+        {
+          "name": "Python",
+          "icon": "FaPython",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "cert_7",
+      "title": "HackerRank - Java",
+      "description": "Achieved HackerRank Java (Basic) certification, showcasing fundamental Java programming knowledge.",
+      "link": "https://www.hackerrank.com/certificates/iframe/1306d9605bda",
+      "image": "/img/java.png",
+      "points": [
+        "Successfully completed HackerRank Java (Basic) certification, highlighting essential Java programming skills.",
+        "Gained proficiency in OOP principles, control structures, data types, and basic syntax.",
+        "Solved real-world coding problems using Java to demonstrate logical thinking and coding accuracy."
+      ],
+      "techStack": [
+        {
+          "name": "Java",
+          "icon": "FaJava",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "cert_8",
+      "title": "HackerRank - SQL",
+      "description": "Certified in basic SQL querying and database fundamentals.",
+      "link": "https://www.hackerrank.com/certificates/iframe/d2462407af79",
+      "image": "/img/SQL.png",
+      "points": [
+        "Completed HackerRank SQL (Basic) certification, demonstrating solid understanding of fundamental SQL concepts.",
+        "Proficient in writing SELECT queries, filtering data with WHERE clauses, and sorting results using ORDER BY.",
+        "Experienced in performing basic JOIN operations to combine data from multiple tables effectively."
+      ],
+      "techStack": [
+        {
+          "name": "SQL",
+          "icon": "DiMysql",
+          "color": "blue"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Jaisurya - Full Stack Developer",
+    "description": "Building scalable and performant web applications with modern technologies.",
+    "keywords": [
+      "Jaisurya",
+      "Full Stack Developer",
+      "React",
+      "Next.js",
+      "Portfolio",
+      "Web Developer"
+    ],
+    "ogTitle": "Jaisurya - Portfolio",
+    "ogDescription": "Building scalable and performant web applications with modern technologies.",
+    "siteUrl": "https://my-portfolio-o3gb.vercel.app/",
+    "siteName": "Jaisurya",
+    "twitterTitle": "Jaisurya - Portfolio",
+    "twitterDescription": "Building scalable and performant web applications with modern technologies."
+  }
+}

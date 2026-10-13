@@ -10,11 +10,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Jaisurya - Full Stack Developer", // Replace "Your Name" with your actual name
+  title: "Jaisurya - Full Stack Developer",
   description:
     "Building scalable and performant web applications with modern technologies.",
   keywords: [
-    "Jaisurya", // Replace "Your Name" with your actual name
+    "Jaisurya",
     "Full Stack Developer",
     "React",
     "Next.js",
@@ -22,27 +22,27 @@ export const metadata: Metadata = {
     "Web Developer",
   ],
   openGraph: {
-    title: "Jaisurya - Portfolio", // Replace "Your Name" with your actual name
+    title: "Jaisurya - Portfolio",
     description:
       "Building scalable and performant web applications with modern technologies.",
-    url: "https://my-portfolio-o3gb.vercel.app/", // Replace "#" with your deployed website URL
-    siteName: "Jaisurya", // Replace "Your Name" with your actual name
+    url: "https://my-portfolio-o3gb.vercel.app/",
+    siteName: "Jaisurya",
     images: [
       {
-        url: "/img/preview.png", // Take a screenshot of your homepage and save it as "preview.png" in the "public/img" folder.
+        url: "/img/preview.png",
         width: 1200,
         height: 630,
-        alt: "Jaisurya - Portfolio", // Replace "Your Name" with your actual name
+        alt: "Jaisurya - Portfolio",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jaisurya - Portfolio", // Replace "Your Name" with your actual name
+    title: "Jaisurya - Portfolio",
     description:
       "Building scalable and performant web applications with modern technologies.",
-    images: ["/img/preview.png"], // Take a screenshot of your homepage and save it as "preview.png" in the "public/img" folder.
+    images: ["/img/preview.png"],
   },
   robots: "index, follow",
 };

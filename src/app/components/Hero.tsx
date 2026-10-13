@@ -25,7 +25,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true }}
           className="text-xs border border-neutral-600 rounded-full px-4 py-1.5 flex justify-center items-center gap-2 relative shine"
         >
-          Let’s Build What Tomorrow Needs, Today
+          Let's Build What Tomorrow Needs, Today
         </motion.p>
 
         <motion.h1
@@ -45,8 +45,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
           viewport={{ once: true, amount: 0.2 }}
           className="md:text-xl leading-6 md:leading-8 w-full sm:max-w-2xl px-4 md:max-w-3xl"
         >
-          Hey, I&apos;m Jaisurya, a Full Stack Developer passionate about
-          building performant, user-friendly, and scalable applications.
+          Hey, I'm Jaisurya, a Full Stack Developer passionate about building performant, user-friendly, and scalable applications.
         </motion.h4>
 
         {/* 🔘 Buttons */}
@@ -115,4 +114,4 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
 });
 
 Hero.displayName = "Hero";
-export default Hero; 
+export default Hero;
