@@ -5,7 +5,7 @@
 import { FiHome, FiMail } from "react-icons/fi";
 import { TbUserSquare } from "react-icons/tb";
 import { LuSquareCode } from "react-icons/lu";
-import { FaCertificate, FaLinkedinIn, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaCuttlefish, FaFigma, FaAws, FaDatabase, FaPython, FaJava } from "react-icons/fa";
+import { FaCertificate, FaLinkedinIn, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGit, FaGithub, FaCuttlefish, FaFigma, FaAws, FaDatabase, FaPython } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiFramer, SiExpress, SiMongodb, SiRedux, SiVercel, SiPostman, SiApachespark, SiStreamlit, SiArduino } from "react-icons/si";
 import { DiPython, DiMysql, DiJava, DiSpark, DiHtml5, DiCss3, DiJavascript, DiPhp } from "react-icons/di";
@@ -255,21 +255,6 @@ export const certifications = [
     ],
     techStack: [
       { name: "Python", icon: FaPython, color: "blue" },
-    ],
-  },
-  {
-    title: "HackerRank - Java",
-    description:
-      "Achieved HackerRank Java (Basic) certification, showcasing fundamental Java programming knowledge.",
-    link: "https://www.hackerrank.com/certificates/iframe/1306d9605bda",
-    image: "/img/java.png",
-    points: [
-      "Successfully completed HackerRank Java (Basic) certification, highlighting essential Java programming skills.",
-      "Gained proficiency in OOP principles, control structures, data types, and basic syntax.",
-      "Solved real-world coding problems using Java to demonstrate logical thinking and coding accuracy.",
-    ],
-    techStack: [
-      { name: "Java", icon: FaJava, color: "blue" },
     ],
   },
   {
