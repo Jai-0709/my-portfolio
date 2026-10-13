@@ -155,8 +155,8 @@ export const education = {
 
 // Update your work experience
 export const experience = {
-  companyName: "CodSoft",
-  title: "Python Developer Intern",
+  companyName: "CICT",
+  title: "Machine LearningIntern",
   duration: "Nov 2023 - Dec 2023",
   location: "Remote",
   points: [
